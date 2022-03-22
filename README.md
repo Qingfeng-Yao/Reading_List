@@ -2,6 +2,7 @@
 ## Computer Vision
 - Deep Residual Learning for Image Recognition, 2016, CVPR, [[pdf](https://arxiv.org/abs/1512.03385)]
 - **Deep Cauchy Hashing for Hamming Space Retrieval**, 2018, CVPR, [[pdf](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf)][[code](https://github.com/thulab/DeepHash)]
+- CBAM: Convolutional Block Attention Module, 2018, ECCV, [[pdf][https://arxiv.org/abs/1807.06521]]
 - Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design, 2019, ICML, [[pdf](https://arxiv.org/abs/1902.00275)]
 - **Rethinking the Value of Labels for Improving Class-Imbalanced Learning**, 2020, NIPS, [[pdf](https://arxiv.org/abs/2006.07529)][[code](https://github.com/YyzHarry/imbalanced-semi-self)]
 - **NAM: Normalization-based Attention Module**, 2021, NIPS, [[pdf](https://arxiv.org/abs/2111.12419)][[code](https://github.com/Christian-lyc/NAM)]

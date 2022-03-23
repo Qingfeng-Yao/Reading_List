@@ -17,3 +17,5 @@
 
 
 # Other Resources
+## Tutorials
+- Discreteness in Neural Natural Language Processing, 2019, EMNLP [[pdf](https://lili-mou.github.io/)]

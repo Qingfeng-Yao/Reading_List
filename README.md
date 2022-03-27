@@ -24,6 +24,11 @@
 - **SimCSE: Simple Contrastive Learning of Sentence Embeddings**, 2021, EMNLP, [[pdf](https://arxiv.org/abs/2104.08821)][[code](https://github.com/princeton-nlp/simcse)]
 - Categorical Normalizing Flows via Continuous Transformations, 2021, ICLR, [[pdf](https://arxiv.org/abs/2006.09790)][[code](https://github.com/phlippe/CategoricalNF)]
 
+## Graph
+- Convolutional Networks on Graphs for Learning Molecular Fingerprints, 2015, NIPS, [[pdf](https://arxiv.org/abs/1509.09292)]
+- Semi-Supervised Classification with Graph Convolutional Networks, 2017, ICLR, [[pdf](https://arxiv.org/abs/1609.02907)]
+- Graph Attention Networks, 2018, ICLR, [[pdf](https://arxiv.org/abs/1710.10903)]
+
 
 # Other Resources
 ## Tutorials

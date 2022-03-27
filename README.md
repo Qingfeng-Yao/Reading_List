@@ -9,9 +9,18 @@
 - **NAM: Normalization-based Attention Module**, 2021, NIPS, [[pdf](https://arxiv.org/abs/2111.12419)][[code](https://github.com/Christian-lyc/NAM)]
 
 ## Natural Language Processing
+- Distributed Representations of Words and Phrases and their Compositionality, 2013, NIPS, [[pdf](https://arxiv.org/abs/1310.4546)]
 - Convolutional Neural Networks for Sentence Classification, 2014, EMNLP, [[pdf](https://arxiv.org/abs/1408.5882)][[code](https://github.com/bigboNed3/chinese_text_cnn)]
-- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, 2018, [[pdf](https://arxiv.org/abs/1810.04805)][[code](https://github.com/google-research/bert)]
+- Deep contextualized word representations, 2018, ACL, [[pdf](https://arxiv.org/abs/1802.05365)]
+- Language Models are Unsupervised Multitask Learners, 2019, ICML, [[pdf](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)]
+- MASS: Masked Sequence to Sequence Pre-training for Language Generation, 2019, ICML, [[pdf](https://arxiv.org/abs/1905.02450)]
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, 2019, ACL, [[pdf](https://arxiv.org/abs/1810.04805)][[code](https://github.com/google-research/bert)]
 - Self-Attentive, Multi-Context One-Class Classification for Unsupervised Anomaly Detection on Text, 2019, ACL, [[pdf](https://aclanthology.org/P19-1398/)][[code](https://github.com/lukasruff/CVDD-PyTorch)]
+- ERNIE: Enhanced Representation through Knowledge Integration, 2019, ACL, [[pdf](https://arxiv.org/abs/1904.09223)]
+- XLNet: Generalized Autoregressive Pretraining for Language Understanding, 2019, NIPS, [[pdf](https://arxiv.org/abs/1906.08237)]
+- RoBERTa: A Robustly Optimized BERT Pretraining Approach, 2019, [[pdf](https://arxiv.org/abs/1907.11692)]
+- SpanBERT: Improving Pre-training by Representing and Predicting Spans, 2020, ACL, [[pdf](https://arxiv.org/abs/1907.10529)]
+- Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, 2020, JMLR, [[pdf](https://arxiv.org/abs/1910.10683)]
 - **SimCSE: Simple Contrastive Learning of Sentence Embeddings**, 2021, EMNLP, [[pdf](https://arxiv.org/abs/2104.08821)][[code](https://github.com/princeton-nlp/simcse)]
 - Categorical Normalizing Flows via Continuous Transformations, 2021, ICLR, [[pdf](https://arxiv.org/abs/2006.09790)][[code](https://github.com/phlippe/CategoricalNF)]
 

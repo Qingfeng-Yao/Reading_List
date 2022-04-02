@@ -20,9 +20,12 @@
 - XLNet: Generalized Autoregressive Pretraining for Language Understanding, 2019, NIPS, [[pdf](https://arxiv.org/abs/1906.08237)]
 - RoBERTa: A Robustly Optimized BERT Pretraining Approach, 2019, [[pdf](https://arxiv.org/abs/1907.11692)]
 - SpanBERT: Improving Pre-training by Representing and Predicting Spans, 2020, ACL, [[pdf](https://arxiv.org/abs/1907.10529)]
+- Sparse, Dense, and Attentional Representations for Text Retrieval, 2020, ACL, [[pdf](https://arxiv.org/abs/2005.00181)][[code](https://github.com/google-research/language/tree/master/language/multivec)]
+- Local Self-Attention over Long Text for Efficient Document Retrieval, 2020, SIGIR, [[pdf](https://arxiv.org/abs/2005.04908)][[code](https://github.com/sebastian-hofstaetter/matchmaker)]
 - Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer, 2020, JMLR, [[pdf](https://arxiv.org/abs/1910.10683)]
 - **SimCSE: Simple Contrastive Learning of Sentence Embeddings**, 2021, EMNLP, [[pdf](https://arxiv.org/abs/2104.08821)][[code](https://github.com/princeton-nlp/simcse)]
 - Categorical Normalizing Flows via Continuous Transformations, 2021, ICLR, [[pdf](https://arxiv.org/abs/2006.09790)][[code](https://github.com/phlippe/CategoricalNF)]
+- Approximate Nearest Neighbor Negative Contrastive Learning for Dense Text Retrieval, 2021, ICLR, [[pdf](https://arxiv.org/abs/2007.00808)][[code](https://github.com/microsoft/ANCE)]
 
 ## Graph
 - Convolutional Networks on Graphs for Learning Molecular Fingerprints, 2015, NIPS, [[pdf](https://arxiv.org/abs/1509.09292)]

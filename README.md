@@ -2,10 +2,10 @@
 - Detecting Near-Duplicates for Web Crawling, 2007, WWW, Google, [[pdf](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/33026.pdf)]
 - Hashing for Similarity Search: A Survey, 2014, Microsoft, [[pdf](https://arxiv.org/abs/1408.2927)]
 - Convolutional Neural Networks for Sentence Classification, 2014, EMNLP, Yoon Kim, [[pdf](https://arxiv.org/abs/1408.5882)]
+- Deep Residual Learning for Image Recognition, 2016, CVPR, Kaiming He, [[pdf](https://arxiv.org/abs/1512.03385)]
 - Rethinking the Value of Labels for Improving Class-Imbalanced Learning, 2020, NIPS, Massachusetts, [[pdf](https://arxiv.org/abs/2006.07529)][[code](https://github.com/YyzHarry/imbalanced-semi-self)]
 
 - ImageNet Classification with Deep Convolutional Neural Networks, 2012, NIPS, [[pdf](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)]
-- Deep Residual Learning for Image Recognition, 2016, CVPR, [[pdf](https://arxiv.org/abs/1512.03385)]
 - **Deep Cauchy Hashing for Hamming Space Retrieval**, 2018, CVPR, [[pdf](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf)][[code](https://github.com/thulab/DeepHash)]
 - CBAM: Convolutional Block Attention Module, 2018, ECCV, [[pdf](https://arxiv.org/abs/1807.06521)]
 - Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design, 2019, ICML, [[pdf](https://arxiv.org/abs/1902.00275)]

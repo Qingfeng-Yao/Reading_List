@@ -21,13 +21,44 @@
 	- sub-exponential随机变量(存疑)
 	- 定理二的证明中推导公式第3-4行的变换(存疑)
 	- 各种形式的concentration不等式(存疑)
+	- 从理论证明中可以看出:
+		- 自监督学习可以较高的概率获得令人满意的分类器, 其误差概率在维度d上呈指数下降; 获得这样的分类器的概率也指数依赖于d和数据量
+		- 训练数据不平衡会影响获得这样分类器的概率; 若正样本数特别小, 则概率中对应的项占据统治地位; 但由于依赖是指数的, 尽管训练数据不平衡, 自监督学习还是有助于获得令人满意的分类器
 ![self_theorem_1](images/self_theorem_1.jpg)
 ![self_theorem_2](images/self_theorem_2.jpg)
 ![self_theorem_3](images/self_theorem_3.jpg)
 ![self_theorem_4](images/self_theorem_4.jpg)
 ![self_theorem_5](images/self_theorem_5.jpg)
+- 不平衡学习框架
+	- 半监督: 伪标签和训练数据中的标签信息有助于不平衡学习; 有用性受数据(未标记数据)的不平衡性影响
+		- self-training框架: 执行半监督学习(SSL)为未标记数据生成伪标签
+		- 除了self-training, 还可以采用更先进的SSL技术(只需要修改损失函数)
+		- 兼容现有的类不平衡学习方法
+		- 实验:
+			- 数据集: 人为创建长尾版本的CIFAR-10和SVHN, 它们对应的未标记数据集分别是80 Million Tiny Images和SVHN自己额外的数据集
+			- 类不平衡率定义为最多数类的样本大小除以最少数类; 对于未标记数据集, 也定义未标记不平衡率
+			- 未标记数据量是原始数据量的5倍多
+			- 采用标准交叉熵(CE)训练
+			- 基线模型是不平衡学习方法LDAM-DRW
+			- 在对应平衡的测试集上评估模型
+![self-training](images/self_training.jpg)
+	- 自监督: 在学习的第一阶段, 抛弃标签信息并执行自监督预训练(SSP); 该过程旨在学习更好的初始化, 是标签无关的(label-agnostic); 之后执行任意标准训练方法学习由预训练网络初始化的最终模型; 由于预训练独立于学习方法, 该策略兼容任何现有的不平衡学习技术
+		- 一旦自监督产生好的初始化, 网络会受益于预习训练任务, 最终学习到更一般化的表示
+		- 实验: 
+			- 数据集: CIFAR-10-LT和CIFAR-100-LT, 以及大规模长尾数据集, 包括ImageNet-LT和真实世界数据集iNaturalist 2018 
+			- 在对应平衡的测试集上评估模型
+			- CIFAR-LT使用Rotation作为SSP, ImageNet-LT和iNaturalist使用MoCo
+- Resnet: 添加shortcut connections(element-wise加法)
+	- 每隔几层(一般2-3层)应用residual学习, 若只有1层, 则没有优势
+	- 若输入输出维度相同, 可直接使用identity shortcuts; 若维度增加, 可有两个选择: (1)仍使用identity shortcuts, 增加的维度用0补齐, 这样不增加额外参数; (2)对输入进行线性映射(以1x1卷积实现)以对齐维度
+	- 当特征地图的尺寸发生变化, 需要令stride=2(存疑)
+![residual_learning](images/residual_learning.jpg)
+![resnet](images/resnet.jpg)
 
 
 ## 参考文献
 - Rethinking the Value of Labels for Improving Class-Imbalanced Learning
 - [concentration inequality](https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf)
+- Learning Imbalanced Datasets with Label-distribution-aware Margin Loss
+- Momentum Contrast for Unsupervised Visual Representation Learning
+- Deep Residual Learning for Image Recognition

@@ -16,6 +16,16 @@
 ![semi_theorem_3](images/semi_theorem_3.jpg)
 - 自监督学习: 预训练分类器
 	- 在最初的时候抛弃标签
+	- 定理一的证明中误差概率对应的事件是小于0(存疑), 以及推导公式第2-3行/3-4行的变换(存疑)
+	- 自监督给出的更好的分类器的函数形式(存疑)
+	- sub-exponential随机变量(存疑)
+	- 定理二的证明中推导公式第3-4行的变换(存疑)
+	- 各种形式的concentration不等式(存疑)
+![self_theorem_1](images/self_theorem_1.jpg)
+![self_theorem_2](images/self_theorem_2.jpg)
+![self_theorem_3](images/self_theorem_3.jpg)
+![self_theorem_4](images/self_theorem_4.jpg)
+![self_theorem_5](images/self_theorem_5.jpg)
 
 
 ## 参考文献

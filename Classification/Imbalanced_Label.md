@@ -16,7 +16,7 @@
 ![semi_theorem_3](images/semi_theorem_3.jpg)
 - 自监督学习: 预训练分类器
 	- 在最初的时候抛弃标签
-	- 定理一的证明中误差概率对应的事件是小于0(存疑), 以及推导公式第2-3行/3-4行的变换(存疑)
+	- 定理一的证明中误差概率对应的事件是小于0(存疑), 以及推导公式第3-4行的变换(存疑)
 	- 自监督给出的更好的分类器的函数形式(存疑)
 	- sub-exponential随机变量(存疑)
 	- 定理二的证明中推导公式第3-4行的变换(存疑)
@@ -34,14 +34,19 @@
 		- self-training框架: 执行半监督学习(SSL)为未标记数据生成伪标签
 		- 除了self-training, 还可以采用更先进的SSL技术(只需要修改损失函数)
 		- 兼容现有的类不平衡学习方法
+![self-training](images/self_training.jpg)
 		- 实验:
 			- 数据集: 人为创建长尾版本的CIFAR-10和SVHN, 它们对应的未标记数据集分别是80 Million Tiny Images和SVHN自己额外的数据集
 			- 类不平衡率定义为最多数类的样本大小除以最少数类; 对于未标记数据集, 也定义未标记不平衡率
 			- 未标记数据量是原始数据量的5倍多
 			- 采用标准交叉熵(CE)训练
-			- 基线模型是不平衡学习方法LDAM-DRW
 			- 在对应平衡的测试集上评估模型
-![self-training](images/self_training.jpg)
+			- 基线模型是不平衡学习方法LDAM-DRW
+				- 交叉熵损失的形式(存疑)
+				- 提出deferred re-balancing(DRW)训练过程
+![LDAM_1](images/LDAM_1.jpg)
+![LDAM_2](images/LDAM_2.jpg)
+![DRW](images/DRW.jpg)
 	- 自监督: 在学习的第一阶段, 抛弃标签信息并执行自监督预训练(SSP); 该过程旨在学习更好的初始化, 是标签无关的(label-agnostic); 之后执行任意标准训练方法学习由预训练网络初始化的最终模型; 由于预训练独立于学习方法, 该策略兼容任何现有的不平衡学习技术
 		- 一旦自监督产生好的初始化, 网络会受益于预习训练任务, 最终学习到更一般化的表示
 		- 实验: 
@@ -52,6 +57,12 @@
 	- 每隔几层(一般2-3层)应用residual学习, 若只有1层, 则没有优势
 	- 若输入输出维度相同, 可直接使用identity shortcuts; 若维度增加, 可有两个选择: (1)仍使用identity shortcuts, 增加的维度用0补齐, 这样不增加额外参数; (2)对输入进行线性映射(以1x1卷积实现)以对齐维度
 	- 当特征地图的尺寸发生变化, 需要令stride=2(存疑)
+	- 实验:
+		- 在卷积后激活函数前应用批归一化(BN)
+		- 没有使用dropout
+		- SGD+mini-batch-size/256+initial LR/0.1/10
+		- 迭代至多60x10^4
+		- weight decay/0.0001+momentum/0.9
 ![residual_learning](images/residual_learning.jpg)
 ![resnet](images/resnet.jpg)
 

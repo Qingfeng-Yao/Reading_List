@@ -1,8 +1,10 @@
 # Papers
 - Detecting Near-Duplicates for Web Crawling, 2007, WWW, Google, [[pdf](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/33026.pdf)]
-- Hashing for Similarity Search: A Survey, 2014, Microsoft, [[pdf](https://arxiv.org/abs/1408.2927)]
 - Convolutional Neural Networks for Sentence Classification, 2014, EMNLP, Yoon Kim, [[pdf](https://arxiv.org/abs/1408.5882)]
+- Hashing for Similarity Search: A Survey, 2014, Microsoft, [[pdf](https://arxiv.org/abs/1408.2927)]
 - Deep Residual Learning for Image Recognition, 2016, CVPR, Kaiming He, [[pdf](https://arxiv.org/abs/1512.03385)]
+- Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss, 2019, NIPS, Stanford, [[code](https://github.com/kaidic/LDAM-DRW)]
+- Momentum Contrast for Unsupervised Visual Representation Learning, 2019, Kaiming He, [[pdf](https://arxiv.org/abs/1911.05722)][[code](https://github.com/facebookresearch/moco)]
 - Rethinking the Value of Labels for Improving Class-Imbalanced Learning, 2020, NIPS, Massachusetts, [[pdf](https://arxiv.org/abs/2006.07529)][[code](https://github.com/YyzHarry/imbalanced-semi-self)]
 
 - ImageNet Classification with Deep Convolutional Neural Networks, 2012, NIPS, [[pdf](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html)]

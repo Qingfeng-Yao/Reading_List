@@ -53,6 +53,10 @@
 			- 数据集: CIFAR-10-LT和CIFAR-100-LT, 以及大规模长尾数据集, 包括ImageNet-LT和真实世界数据集iNaturalist 2018 
 			- 在对应平衡的测试集上评估模型
 			- CIFAR-LT使用Rotation作为SSP, ImageNet-LT和iNaturalist使用MoCo
+			- MoCo
+				- 动量更新公式(存疑)(一个缓慢变化(slowly evolving)的key encoder是使用队列的核心)
+![moco](images/moco.jpg)
+![pseudocode_moco](images/pseudocode_moco.jpg)
 - Resnet: 添加shortcut connections(element-wise加法)
 	- 每隔几层(一般2-3层)应用residual学习, 若只有1层, 则没有优势
 	- 若输入输出维度相同, 可直接使用identity shortcuts; 若维度增加, 可有两个选择: (1)仍使用identity shortcuts, 增加的维度用0补齐, 这样不增加额外参数; (2)对输入进行线性映射(以1x1卷积实现)以对齐维度

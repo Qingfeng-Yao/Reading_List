@@ -55,6 +55,7 @@
 			- CIFAR-LT使用Rotation作为SSP, ImageNet-LT和iNaturalist使用MoCo
 			- MoCo
 				- 动量更新公式(存疑)(一个缓慢变化(slowly evolving)的key encoder是使用队列的核心)
+				- v2版本中添加了MLP head, 修改了数据增强, 以及lr schedule更新为cosine
 ![moco](images/moco.jpg)
 ![pseudocode_moco](images/pseudocode_moco.jpg)
 - Resnet: 添加shortcut connections(element-wise加法)

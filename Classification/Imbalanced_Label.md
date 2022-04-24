@@ -4,7 +4,9 @@
 	- 标签监督(supervision)比无监督的效果要好
 	- 极度(heavily)不平衡数据会引发分类器的**标签偏差(bias)**, 即决策边界会被多数(majority)类改变
 	- 类不平衡(class-imbalanced)学习可受益于半监督学习和自监督方式
-	- 专门技术: 数据重采样(re-sampling)方法和类平衡(class-balanced)损失, 在极度(extreme)类不平衡情况下性能仍会下降
+	- 专门技术: 数据重采样(re-sampling)方法和类平衡(class-balanced)损失(重新加权), 在极度(extreme)类不平衡情况下性能仍会下降
+		- focal loss
+![focal_loss](images/focal_loss.jpg)
 - 半监督学习: 利用更多的未标记(unlabeled)数据(额外数据)
 	- 利用伪标签(pseudo-labeling)策略
 	- 理论证明中的最优贝叶斯分类器推导存疑
@@ -43,6 +45,7 @@
 			- 在对应平衡的测试集上评估模型
 			- 基线模型是不平衡学习方法LDAM-DRW
 				- 交叉熵损失的形式(存疑)
+				- 使用归一化线性层能更容易tune margin: 通过将最后的隐含激活的L2范数设置为1和将最后全连接层的权重向量d L2范数设置为1来归一化logits
 				- 提出deferred re-balancing(DRW)训练过程
 ![LDAM_1](images/LDAM_1.jpg)
 ![LDAM_2](images/LDAM_2.jpg)
@@ -78,3 +81,4 @@
 - Learning Imbalanced Datasets with Label-distribution-aware Margin Loss
 - Momentum Contrast for Unsupervised Visual Representation Learning
 - Deep Residual Learning for Image Recognition
+- Focal Loss for Dense Object Detection

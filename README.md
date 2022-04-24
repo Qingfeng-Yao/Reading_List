@@ -3,6 +3,7 @@
 - Convolutional Neural Networks for Sentence Classification, 2014, EMNLP, Yoon Kim, [[pdf](https://arxiv.org/abs/1408.5882)]
 - Hashing for Similarity Search: A Survey, 2014, Microsoft, [[pdf](https://arxiv.org/abs/1408.2927)]
 - Deep Residual Learning for Image Recognition, 2016, CVPR, Kaiming He, [[pdf](https://arxiv.org/abs/1512.03385)]
+- Focal Loss for Dense Object Detection, 2017, ICCV, Kaiming He, [[pdf](https://arxiv.org/abs/1708.02002)]
 - Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss, 2019, NIPS, Stanford, [[code](https://github.com/kaidic/LDAM-DRW)]
 - Momentum Contrast for Unsupervised Visual Representation Learning, 2019, Kaiming He, [[pdf_v1](https://arxiv.org/abs/1911.05722)][[pdf_v2](https://arxiv.org/abs/2003.04297)][[code](https://github.com/facebookresearch/moco)]
 - Rethinking the Value of Labels for Improving Class-Imbalanced Learning, 2020, NIPS, Massachusetts, [[pdf](https://arxiv.org/abs/2006.07529)][[code](https://github.com/YyzHarry/imbalanced-semi-self)]

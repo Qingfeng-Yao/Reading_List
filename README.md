@@ -6,7 +6,7 @@
 - 2016, CVPR, Deep Residual Learning for Image Recognition, Kaiming He, [[pdf](https://arxiv.org/abs/1512.03385)]
 - 2017, ICCV, Focal Loss for Dense Object Detection, Kaiming He, [[pdf](https://arxiv.org/abs/1708.02002)]
 - 2017, ICLR, Semi-Supervised Classification with Graph Convolutional Networks, Kipf, [[pdf](https://arxiv.org/abs/1609.02907)]
-- 2018, CVPR, Deep Cauchy Hashing for Hamming Space Retrieval, [[pdf](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf)][[code](https://github.com/thulab/DeepHash)]
+- 2018, CVPR, Deep Cauchy Hashing for Hamming Space Retrieval, Tsinghua, [[pdf](http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf)][[code](https://github.com/thulab/DeepHash)]
 - 2018, ECCV, CBAM: Convolutional Block Attention Module, Korea, [[pdf](https://arxiv.org/abs/1807.06521)]
 - 2018, ICLR, Graph Attention Networks, Velickovic, [[pdf](https://arxiv.org/abs/1710.10903)]
 - 2019, ACL, BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding, Google, [[pdf](https://arxiv.org/abs/1810.04805)][[code](https://github.com/google-research/bert)]

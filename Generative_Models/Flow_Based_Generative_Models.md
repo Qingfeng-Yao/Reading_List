@@ -15,6 +15,13 @@
 ![flow++_4](images/flow%2B%2B_4.jpg)
 ![flow++_5](images/flow%2B%2B_5.jpg)
 
+### 语言建模任务
+- Categorical Normalizing Flows: 重点是隐含空间的学习
+	- 解码器: 条件独立; 确定的
+	- 编码器: 被优化以提供类变量的合适的表示给流，同时在隐含空间中分开不同的类
+	- 编码器和解码器共享参数
+	- (存疑)真实后验和近似后验之间的关系
+
 
 ## 参考文献
 - Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design

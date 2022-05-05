@@ -32,4 +32,4 @@
 - 2019, EMNLP, Discreteness in Neural Natural Language Processing, [[pdf](https://lili-mou.github.io/)]
 
 ## Books
-- Pattern Recognition and Machine Learning, 2006, Springer
+- Pattern Recognition and Machine Learning, 2006, Springer, [link](resources/)

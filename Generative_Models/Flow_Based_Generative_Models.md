@@ -26,3 +26,10 @@
 ## 参考文献
 - Flow++: Improving Flow-Based Generative Models with Variational Dequantization and Architecture Design
 - Categorical Normalizing Flows via Continuous Transformations
+- Discrete Flows: Invertible Generative Models of Discrete Data
+- On the Sentence Embeddings from Pre-trained Language Models
+- Normalizing Flows: An Introduction and Review of Current Methods
+- Normalizing Flows for Probabilistic Modeling and Inference
+- Do Deep Generative Models Know What They Don't Know?
+- Masked Autoregressive Flow for Density Estimation
+- Density estimation using Real NVP

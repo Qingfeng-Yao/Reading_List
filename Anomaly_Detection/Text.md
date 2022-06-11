@@ -18,3 +18,4 @@
 
 ## 参考文献
 - Self-Attentive, Multi-Context One-Class Classification for Unsupervised Anomaly Detection on Text
+- DATE: Detecting Anomalies in Text via Self-Supervision of Transformers

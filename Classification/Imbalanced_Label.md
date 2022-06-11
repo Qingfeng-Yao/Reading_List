@@ -77,8 +77,11 @@
 
 ## 参考文献
 - Rethinking the Value of Labels for Improving Class-Imbalanced Learning
-- [concentration inequality](https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf)
 - Learning Imbalanced Datasets with Label-distribution-aware Margin Loss
+- Focal Loss for Dense Object Detection
 - Momentum Contrast for Unsupervised Visual Representation Learning
 - Deep Residual Learning for Image Recognition
-- Focal Loss for Dense Object Detection
+
+
+## 其他参考资料
+- [concentration inequality](https://www.stat.berkeley.edu/~mjwain/stat210b/Chap2_TailBounds_Jan22_2015.pdf)
